@@ -171,4 +171,4 @@ Web Services are legacy technologies. 
  
 ![WebService + .NET Remoting + WCF tutorial](https://www.youtube.com/watch?v=3Qt7TTS1u4A&list=PL6n9fhu94yhVxEyaRMaMN_-qnDdNVGsL1&index=2)
 
-Based on PRAGIM TECHNOLOGIES [blog](http://csharp-video-tutorials.blogspot.cz/).
+Based on PRAGIM TECHNOLOGIES' [blog](http://csharp-video-tutorials.blogspot.cz/).
