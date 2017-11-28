@@ -2,7 +2,7 @@
 | Tool | Description |
 | ---- | ------------|
 |[Visual Studio 2017](http://www.visualstudio.com)| IDE for .Net |
-|[LinqPad](http://www.linqpad.net/) | For developing, testing, debuging Linq, SQL… |
+|[LinqPad](http://www.linqpad.net/) | For developing, testing, debuging Linq, SQLâ€¦ |
 |[DotPeek](https://www.jetbrains.com/decompiler/) | C# decompiler|
 
 # Visual Studio Extensions
@@ -14,8 +14,11 @@
 |[Mnemonic Live Templates](https://github.com/JetBrains/mnemonics) | Code generation |
 |[MarkdownEditor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)| Handy Markdown editor for VS |
 
+# Git
+* [Getting Started](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+* [Pro Git book](https://git-scm.com/book/en/v2)
+
 # Interesting Links
 * [Entity framework tutorial](http://www.entityframeworktutorial.net/code-first/entity-framework-code-first.aspx)
 * [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design 
 * [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them.
-* [Pro Git book](https://git-scm.com/book/en/v2)
