@@ -13,6 +13,7 @@
 |[Postifx templates](https://github.com/controlflow/resharper-postfix) | Postfix code generation |
 |[Mnemonic Live Templates](https://github.com/JetBrains/mnemonics) | Code generation |
 |[MarkdownEditor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)| Handy Markdown editor for VS |
+|[Entity Framework 6 Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition)| View Entity Data Model|
 
 # Git
 * [Getting Started](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
