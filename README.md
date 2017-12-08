@@ -31,3 +31,4 @@
 * [Microsoft Azure Workshop for Developers](https://github.com/DariuszPorowski/AzureDevWorkshop/)
 * [Azure IoT Workshop](https://github.com/MarekLani/AzureIotWorkshop)
 * [Microsoft/TechnicalCommunityContent](https://github.com/microsoft/TechnicalCommunityContent)
+* [WPF Samples](https://github.com/Microsoft/WPF-Samples)
