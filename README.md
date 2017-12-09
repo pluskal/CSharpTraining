@@ -32,3 +32,4 @@
 * [Azure IoT Workshop](https://github.com/MarekLani/AzureIotWorkshop)
 * [Microsoft/TechnicalCommunityContent](https://github.com/microsoft/TechnicalCommunityContent)
 * [WPF Samples](https://github.com/Microsoft/WPF-Samples)
+* [WPF - MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
