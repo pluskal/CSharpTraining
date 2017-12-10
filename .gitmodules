@@ -4,3 +4,6 @@
 [submodule "Tutorials/angelsix-youtube"]
 	path = Tutorials/angelsix-youtube
 	url = https://github.com/pluskal/angelsix-youtube.git
+[submodule "Lectures/WPF"]
+	path = Lectures/WPF
+	url = https://github.com/pluskal/CSharpTraining_WPF
