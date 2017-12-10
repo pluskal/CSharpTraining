@@ -1,0 +1,9 @@
+﻿<Window x:Class="WPFThemeDemo.DesktopClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="Button1" IsEnabled="False" Width="96" Height="32">I'm a button!</Button>
+        <Button x:Name="Button2" Width="96" Height="32" Click="Button2_OnClick">Re-enable</Button>
+    </StackPanel>
+</Window>
