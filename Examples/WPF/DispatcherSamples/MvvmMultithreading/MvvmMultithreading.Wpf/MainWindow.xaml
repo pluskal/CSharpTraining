@@ -1,0 +1,26 @@
+﻿<Window x:Class="MvvmMultithreading.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"
+        Height="350"
+        Width="525"
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
+
+    <StackPanel>
+
+        <Button Content="Start (works in WPF only)"
+                Height="80"
+                Margin="10"
+                Command="{Binding StartCrashCommand}" />
+
+        <Button Content="Start (succeeds)"
+                Height="80"
+                Margin="10"
+                Command="{Binding StartSuccessCommand}" />
+
+        <TextBlock Margin="10"
+                   FontSize="24"
+                   Text="{Binding Status}"/>
+
+    </StackPanel>
+</Window>

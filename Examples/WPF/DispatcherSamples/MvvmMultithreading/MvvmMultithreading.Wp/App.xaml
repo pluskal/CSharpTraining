@@ -1,0 +1,27 @@
+﻿<Application x:Class="MvvmMultithreading.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+             xmlns:mvvmMultithreading="clr-namespace:MvvmMultithreading"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <mvvmMultithreading:LocalizedStrings x:Key="LocalizedStrings" />
+
+        <vm:ViewModelLocator x:Key="Locator"
+                             d:IsDataSource="True"
+                             xmlns:vm="clr-namespace:MvvmMultithreading.ViewModel" />
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService Launching="Application_Launching"
+                                       Closing="Application_Closing"
+                                       Activated="Application_Activated"
+                                       Deactivated="Application_Deactivated" />
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
