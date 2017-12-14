@@ -33,3 +33,4 @@
 * [Microsoft/TechnicalCommunityContent](https://github.com/microsoft/TechnicalCommunityContent)
 * [WPF Samples](https://github.com/Microsoft/WPF-Samples)
 * [WPF - MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
+* [Prism Samples](https://github.com/PrismLibrary/Prism-Samples-Wpf)
