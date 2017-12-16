@@ -49,44 +49,26 @@ namespace NotifyTaskCompletionSample
             }
         }
         public Task<TResult> Task { get; private set; }
-        public TResult Result
-        {
-            get
-            {
-                return (this.Task.Status == TaskStatus.RanToCompletion) ?
-                    this.Task.Result : default(TResult);
-            }
-        }
-        public TaskStatus Status { get { return this.Task.Status; } }
-        public bool IsCompleted { get { return this.Task.IsCompleted; } }
-        public bool IsNotCompleted { get { return !this.Task.IsCompleted; } }
-        public bool IsSuccessfullyCompleted
-        {
-            get
-            {
-                return this.Task.Status ==
-                       TaskStatus.RanToCompletion;
-            }
-        }
-        public bool IsCanceled { get { return this.Task.IsCanceled; } }
-        public bool IsFaulted { get { return this.Task.IsFaulted; } }
-        public AggregateException Exception { get { return this.Task.Exception; } }
-        public Exception InnerException
-        {
-            get
-            {
-                return (this.Exception == null) ?
-                    null : this.Exception.InnerException;
-            }
-        }
-        public string ErrorMessage
-        {
-            get
-            {
-                return (this.InnerException == null) ?
-                    null : this.InnerException.Message;
-            }
-        }
+        public TResult Result => (this.Task.Status == TaskStatus.RanToCompletion) ?
+            this.Task.Result : default(TResult);
+
+        public TaskStatus Status => this.Task.Status;
+        public bool IsCompleted => this.Task.IsCompleted;
+        public bool IsNotCompleted => !this.Task.IsCompleted;
+
+        public bool IsSuccessfullyCompleted => this.Task.Status ==
+                                               TaskStatus.RanToCompletion;
+
+        public bool IsCanceled => this.Task.IsCanceled;
+        public bool IsFaulted => this.Task.IsFaulted;
+        public AggregateException Exception => this.Task.Exception;
+
+        public Exception InnerException => (this.Exception == null) ?
+            null : this.Exception.InnerException;
+
+        public string ErrorMessage => (this.InnerException == null) ?
+            null : this.InnerException.Message;
+
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }

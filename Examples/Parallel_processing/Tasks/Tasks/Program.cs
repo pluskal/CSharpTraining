@@ -22,9 +22,14 @@ namespace Tasks
 
         private static async Task SayHello(int index)
         {
-            await Task.Delay(Random.Next(250, 500));
-            Console.WriteLine(
-                $"[{Thread.CurrentThread.ManagedThreadId}] Hello, World {index}! ({Thread.CurrentThread.IsBackground})");
+            //await Task.Delay();
+            await Task.Delay(await GetRandom());
+            Console.WriteLine($"[{Thread.CurrentThread.ManagedThreadId}] Hello, World {index}! ({Thread.CurrentThread.IsBackground})");
+        }
+
+        private static async Task<int> GetRandom()
+        {
+          return await Task.Run(() => Random.Next(250, 500));
         }
 
         private static void WaitForPressedKey()
