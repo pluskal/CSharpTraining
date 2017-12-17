@@ -1,0 +1,12 @@
+﻿<Application x:Class="FilteringSample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FilteringSample"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:filteringSample="clr-namespace:FilteringSample"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <local:MainViewModel x:Key="MainViewModel" />
+    </Application.Resources>
+</Application>
