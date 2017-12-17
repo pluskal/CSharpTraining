@@ -7,3 +7,6 @@
 [submodule "Lectures/WPF"]
 	path = Lectures/WPF
 	url = https://github.com/pluskal/CSharpTraining_WPF
+[submodule "Examples/WPF/VirtualizingObservableCollection"]
+	path = Examples/WPF/VirtualizingObservableCollection
+	url = https://github.com/pluskal/VirtualizingObservableCollection.git
