@@ -20,6 +20,17 @@
 * [Pro Git book](https://git-scm.com/book/en/v2)
 
 # Interesting Links
-* [Entity framework tutorial](http://www.entityframeworktutorial.net/code-first/entity-framework-code-first.aspx)
 * [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design 
 * [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them.
+
+# Tutorials
+* [WPF - Tutorial](http://www.wpf-tutorial.com)
+* [Entity framework tutorial](http://www.entityframeworktutorial.net/code-first/entity-framework-code-first.aspx)
+
+# Workshops
+* [Microsoft Azure Workshop for Developers](https://github.com/DariuszPorowski/AzureDevWorkshop/)
+* [Azure IoT Workshop](https://github.com/MarekLani/AzureIotWorkshop)
+* [Microsoft/TechnicalCommunityContent](https://github.com/microsoft/TechnicalCommunityContent)
+* [WPF Samples](https://github.com/Microsoft/WPF-Samples)
+* [WPF - MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
+* [Prism Samples](https://github.com/PrismLibrary/Prism-Samples-Wpf)
