@@ -14,6 +14,7 @@
 |[Mnemonic Live Templates](https://github.com/JetBrains/mnemonics) | Code generation |
 |[MarkdownEditor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)| Handy Markdown editor for VS |
 |[Entity Framework 6 Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition)| View Entity Data Model|
+|[OzCode](https://www.oz-code.com/)| Advanced debugging tools |
 
 # Git
 * [Getting Started](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
