@@ -35,3 +35,4 @@
 * [WPF Samples](https://github.com/Microsoft/WPF-Samples)
 * [WPF - MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
 * [Prism Samples](https://github.com/PrismLibrary/Prism-Samples-Wpf)
+* [WPF Custom Controls](https://github.com/ratishphilip/wpfspark#toggleswitch)
