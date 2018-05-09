@@ -27,6 +27,9 @@
 # Tutorials
 * [WPF - Tutorial](http://www.wpf-tutorial.com)
 * [Entity framework tutorial](http://www.entityframeworktutorial.net/code-first/entity-framework-code-first.aspx)
+* [[WPF] HOW TO BIND TO DATA WHEN THE DATACONTEXT IS NOT INHERITED](https://www.thomaslevesque.com/2011/03/21/wpf-how-to-bind-to-data-when-the-datacontext-is-not-inherited/)
+  * [ElementName Binding from MenuItem in ContextMenu](https://stackoverflow.com/questions/1013558/elementname-binding-from-menuitem-in-contextmenu/5357124#5357124)
+  * [Binding ItemsSource of a ComboBoxColumn in WPF DataGrid](https://stackoverflow.com/questions/5409259/binding-itemssource-of-a-comboboxcolumn-in-wpf-datagrid)
 
 # Workshops
 * [Microsoft Azure Workshop for Developers](https://github.com/DariuszPorowski/AzureDevWorkshop/)
@@ -36,3 +39,4 @@
 * [WPF - MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
 * [Prism Samples](https://github.com/PrismLibrary/Prism-Samples-Wpf)
 * [WPF Custom Controls](https://github.com/ratishphilip/wpfspark#toggleswitch)
+* [WPF Toolkit](https://github.com/xceedsoftware/wpftoolkit)
