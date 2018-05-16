@@ -1,0 +1,12 @@
+﻿<Application x:Class="SimpleReporting.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SimpleReporting"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:viewModels="clr-namespace:SimpleReporting.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <viewModels:SimpleReportViewModel x:Key="SimpleReportViewModel" />
+        <local:BoolToVisibilityInvertedConverter x:Key="BoolToVisibilityConverter" />
+    </Application.Resources>
+</Application>

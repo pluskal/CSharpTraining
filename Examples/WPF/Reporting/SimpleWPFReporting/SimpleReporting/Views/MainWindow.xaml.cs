@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace SimpleWPFReporting.Example.Views
+namespace SimpleReporting.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
