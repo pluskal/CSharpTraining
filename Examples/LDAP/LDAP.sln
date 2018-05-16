@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDAPClient", "LDAPClient\LDAPClient.csproj", "{2503408E-121D-408E-B415-427C4DE20CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDAPClient.Tests", "LDAPClient.Tests\LDAPClient.Tests.csproj", "{0C9F7768-D981-42E3-82D5-DBF27C2B746A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2503408E-121D-408E-B415-427C4DE20CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2503408E-121D-408E-B415-427C4DE20CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2503408E-121D-408E-B415-427C4DE20CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2503408E-121D-408E-B415-427C4DE20CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9F7768-D981-42E3-82D5-DBF27C2B746A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9F7768-D981-42E3-82D5-DBF27C2B746A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9F7768-D981-42E3-82D5-DBF27C2B746A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9F7768-D981-42E3-82D5-DBF27C2B746A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA4A1DF1-7DB9-476F-8052-F8BFDB95036C}
+	EndGlobalSection
+EndGlobal

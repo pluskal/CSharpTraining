@@ -1,4 +1,4 @@
-﻿namespace LdapClient
+﻿namespace LDAPClient
 {
     public class UserModel
     {
