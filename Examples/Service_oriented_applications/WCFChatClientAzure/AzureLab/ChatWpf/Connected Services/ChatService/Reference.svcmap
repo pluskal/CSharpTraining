@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f8bd147a-b59e-4b1d-b8ae-a717bc4a6b5e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://azurelabfit.azurewebsites.net/ChatApi.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ChatApi.xsd" MetadataType="Schema" ID="d85d24b9-3046-4841-b8aa-7ed4cb5f5c8b" SourceId="1" SourceUrl="http://azurelabfit.azurewebsites.net/ChatApi.svc?xsd=xsd2" />
+    <MetadataFile FileName="ChatApi.disco" MetadataType="Disco" ID="4167f550-685d-4c06-95c3-89254bc931db" SourceId="1" SourceUrl="http://azurelabfit.azurewebsites.net/ChatApi.svc?disco" />
+    <MetadataFile FileName="ChatApi1.xsd" MetadataType="Schema" ID="4e10ab75-4267-4bf2-8519-cf4e7abe049a" SourceId="1" SourceUrl="http://azurelabfit.azurewebsites.net/ChatApi.svc?xsd=xsd0" />
+    <MetadataFile FileName="ChatService.wsdl" MetadataType="Wsdl" ID="2f75c740-cb53-413f-a05d-5e33c0159721" SourceId="1" SourceUrl="http://azurelabfit.azurewebsites.net/ChatApi.svc?wsdl" />
+    <MetadataFile FileName="ChatApi2.xsd" MetadataType="Schema" ID="68056638-6c68-4577-ab5a-1adbb0387ffb" SourceId="1" SourceUrl="http://azurelabfit.azurewebsites.net/ChatApi.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
