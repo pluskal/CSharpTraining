@@ -1,4 +1,6 @@
-﻿namespace DependencyInjectionWithIoC.FakesWithInterfaces
+﻿using DependencyInjectionWithIoC.FakesWithInterfaces.Models.Dependencies;
+
+namespace DependencyInjectionWithIoC.FakesWithInterfaces.Models
 {
     public class ConstructorDependency
     {

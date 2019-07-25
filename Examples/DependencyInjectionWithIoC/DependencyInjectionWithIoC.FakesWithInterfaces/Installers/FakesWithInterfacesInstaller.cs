@@ -1,10 +1,8 @@
 ﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using Castle.Windsor.Diagnostics.Extensions;
-using Castle.Windsor.Installer;
 
-namespace DependencyInjectionWithIoC.FakesWithInterfaces
+namespace DependencyInjectionWithIoC.FakesWithInterfaces.Installers
 {
     public class FakesWithInterfacesInstaller : IWindsorInstaller
     {

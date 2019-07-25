@@ -4,6 +4,9 @@ using Castle.MicroKernel.Handlers;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using DependencyInjectionWithIoC.Fakes;
+using DependencyInjectionWithIoC.Fakes.Factories;
+using DependencyInjectionWithIoC.Fakes.Models;
+using DependencyInjectionWithIoC.Fakes.Models.Dependencies;
 using Xunit;
 
 namespace DependencyInjectionWithIoC.Tests

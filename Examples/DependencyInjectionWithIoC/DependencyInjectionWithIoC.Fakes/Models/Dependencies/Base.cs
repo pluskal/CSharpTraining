@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DependencyInjectionWithIoC.Fakes
+﻿namespace DependencyInjectionWithIoC.Fakes.Models.Dependencies
 {
     public class Base
     {

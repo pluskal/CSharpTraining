@@ -1,4 +1,8 @@
-﻿namespace DependencyInjectionWithIoC.Fakes
+﻿using DependencyInjectionWithIoC.Fakes.Factories;
+using DependencyInjectionWithIoC.Fakes.Models;
+using DependencyInjectionWithIoC.Fakes.Models.Dependencies;
+
+namespace DependencyInjectionWithIoC.Fakes
 {
     public class Controller
     {

@@ -49,12 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstructorDependency.cs" />
-    <Compile Include="FakesWithInterfacesInstaller.cs" />
-    <Compile Include="FooB.cs" />
-    <Compile Include="FooBase.cs" />
-    <Compile Include="IFoo.cs" />
-    <Compile Include="FooA.cs" />
+    <Compile Include="Models\ConstructorDependency.cs" />
+    <Compile Include="Installers\FakesWithInterfacesInstaller.cs" />
+    <Compile Include="Models\Dependencies\FooB.cs" />
+    <Compile Include="Models\Dependencies\FooBase.cs" />
+    <Compile Include="Models\Dependencies\IFoo.cs" />
+    <Compile Include="Models\Dependencies\FooA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

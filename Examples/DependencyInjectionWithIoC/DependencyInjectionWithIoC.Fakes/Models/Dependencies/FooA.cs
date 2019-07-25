@@ -1,4 +1,4 @@
-﻿namespace DependencyInjectionWithIoC.Fakes
+﻿namespace DependencyInjectionWithIoC.Fakes.Models.Dependencies
 {
     public class FooA : Base
     {

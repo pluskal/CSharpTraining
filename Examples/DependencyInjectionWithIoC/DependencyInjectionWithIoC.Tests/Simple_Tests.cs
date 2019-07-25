@@ -2,6 +2,7 @@
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using DependencyInjectionWithIoC.Fakes;
+using DependencyInjectionWithIoC.Fakes.Models.Dependencies;
 using Xunit;
 
 namespace DependencyInjectionWithIoC.Tests
